@@ -1,0 +1,133 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{365DFDBA-F655-4CD9-8E20-D1FC8CA56355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Oschader">
+      <UniqueIdentifier>{8AEC391E-7782-4BDC-9C55-4358E20BD17D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Oschader\src">
+      <UniqueIdentifier>{266AC3B8-A4BC-4691-912B-E608AE8DB039}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\BasicOschaderApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BasicOschaderApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\EffectProgram.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\EffectRect.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FadeEffect.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FragmentProgram.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ImageProgram.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LayerEffect.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LayerProgram.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PassthroughProgram.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Program.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProgramRect.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProgramState.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TexInputProgram.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TextProgram.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TriggeredPassthrough.cpp">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\EffectProgram.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\EffectRect.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FadeEffect.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FragmentProgram.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ImageProgram.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\InputResolver.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LayerEffect.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LayerProgram.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PassthroughProgram.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Program.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProgramRect.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProgramState.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TexInputProgram.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TextProgram.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TriggeredPassthrough.h">
+      <Filter>Blocks\Oschader\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

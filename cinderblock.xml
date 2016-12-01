@@ -1,0 +1,14 @@
+<cinder>
+  <block
+    name="Oschader"
+    id="com.ulyssesp.oschader"
+    author="Ulysses Popple"
+    license="MIT"
+    summary="A platform for rapid, live, fullscreen shader changes."
+    git="git@github.com:ulyssesp/Cinder-Oschader.git"
+    >
+    <sourcePattern>src/*.cpp</sourcePattern>
+    <headerPattern>src/*.h</headerPattern>
+    <includePath>src</includePath>
+  </block>
+</cinder>
