@@ -15,7 +15,7 @@ ProgramRef ProgramRect::create(gl::GlslProgRef prog, ProgramStateRef state)
 
 ProgramRef ProgramRect::create(std::string frag, ProgramStateRef state)
 {
-	gl::GlslProgRef prog = gl::GlslProg::create(app::loadAsset("shaders/passthrough.vert"), app::loadAsset(frag));
+	gl::GlslProgRef prog = gl::GlslProg::create(app::loadAsset("passthrough.vert"), app::loadAsset(frag));
 	return create(prog, state);
 }
 

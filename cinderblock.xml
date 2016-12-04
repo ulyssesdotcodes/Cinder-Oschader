@@ -7,6 +7,7 @@
     summary="A platform for rapid, live, fullscreen shader changes."
     git="git@github.com:ulyssesp/Cinder-Oschader.git"
     >
+    <asset>assets/passthrough.vert</asset>
     <sourcePattern>src/*.cpp</sourcePattern>
     <headerPattern>src/*.h</headerPattern>
     <includePath>src</includePath>

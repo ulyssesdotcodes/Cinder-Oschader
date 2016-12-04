@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,6 +22,7 @@
     <ProjectGuid>{FAA3C4CE-989E-4282-9061-4D98129AC874}</ProjectGuid>
     <RootNamespace>BasicOschader</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -187,7 +189,12 @@
   <ItemGroup>
     <ResourceCompile Include="Resources.rc" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="..\assets\circles.frag" />
+    <None Include="..\assets\fade.frag" />
+    <None Include="..\assets\sine.frag" />
+    <None Include="..\assets\translate.frag" />
+  </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <ClCompile Include="..\src\BasicOschaderApp.cpp" />
@@ -205,6 +212,7 @@
     <ClCompile Include="..\..\..\src\TexInputProgram.cpp" />
     <ClCompile Include="..\..\..\src\TextProgram.cpp" />
     <ClCompile Include="..\..\..\src\TriggeredPassthrough.cpp" />
+    <ClCompile Include="..\src\MouseInputResolver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h" />
@@ -223,6 +231,7 @@
     <ClInclude Include="..\..\..\src\TexInputProgram.h" />
     <ClInclude Include="..\..\..\src\TextProgram.h" />
     <ClInclude Include="..\..\..\src\TriggeredPassthrough.h" />
+    <ClInclude Include="..\src\MouseInputResolver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

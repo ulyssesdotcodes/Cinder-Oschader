@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
@@ -20,6 +21,9 @@
     </Filter>
     <Filter Include="Blocks\Oschader\src">
       <UniqueIdentifier>{266AC3B8-A4BC-4691-912B-E608AE8DB039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{d050f5fd-54d7-4f4e-80fa-d94d9dbcb5f4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -119,9 +123,15 @@
     <ClInclude Include="..\..\..\src\TriggeredPassthrough.h">
       <Filter>Blocks\Oschader\src</Filter>
     </ClInclude>
+    <ClCompile Include="..\src\MouseInputResolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MouseInputResolver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -129,5 +139,19 @@
     <ResourceCompile Include="Resources.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\assets\sine.frag">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="..\assets\circles.frag">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="..\assets\translate.frag">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="..\assets\fade.frag">
+      <Filter>Assets</Filter>
+    </None>
   </ItemGroup>
 </Project>

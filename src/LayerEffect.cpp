@@ -4,7 +4,7 @@ using namespace ci;
 
 ProgramRef LayerEffect::create(ProgramStateRef state, std::string frag)
 {
-	gl::GlslProgRef prog = gl::GlslProg::create(app::loadAsset("shaders/passthrough.vert"), app::loadAsset(frag));
+	gl::GlslProgRef prog = gl::GlslProg::create(app::loadAsset("passthrough.vert"), app::loadAsset(frag));
 	gl::BatchRef batch = gl::Batch::create(geom::Rect(app::getWindowBounds()), prog);
 	return ProgramRef(new LayerEffect(state, batch));
 }

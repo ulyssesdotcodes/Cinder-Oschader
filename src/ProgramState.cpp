@@ -9,6 +9,14 @@ void ProgramState::update(std::function<void(std::shared_ptr<Program>)> updateFn
 	}
 }
 
+void ProgramState::setProgram(std::string id, std::string name, std::shared_ptr<Program> program)
+{
+	auto s = mState.find(id);
+	if(s == mState.end() || s->second.first != name && program) {
+		mState[id] = std::pair<std::string, std::shared_ptr<Program>>(name, program);
+	}
+}
+
 void ProgramState::setProgram(std::string id, std::string name, std::function<std::shared_ptr<Program>()> createProgram)
 {
 	auto s = mState.find(id);
